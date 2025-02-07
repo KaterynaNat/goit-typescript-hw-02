@@ -1,13 +1,13 @@
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Встановлює 5 стовпців з рівною шириною */
-    gap: 15px;
-    padding: 20px;
-    background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 20px;
+  background-color: black;
 }
 
 .item {
-    border: 2px solid #8B0000;
-    overflow: hidden;
-    border-radius: 10px;
+  border: 2px solid #8b0000;
+  overflow: hidden;
+  border-radius: 10px;
 }
