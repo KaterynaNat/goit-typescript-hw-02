@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  color: #8B0000;
+  line-height: 1.6;
+}
+
+a {
+  color: #8B0000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
