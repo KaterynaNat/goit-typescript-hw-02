@@ -22,7 +22,7 @@ function App() {
     const getImages = async () => {
       setIsLoading(true);
       try {
-        const data = await fetchImages(query, page);
+        const data: Image[] = await fetchImages(query, page);
         setImages((prev) => [...prev, ...data]);
 
         if (data.length === 0) {
